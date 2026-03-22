@@ -43,6 +43,9 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+if not worked 
+-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+-pip install datasets transformers requests
 
 ### Step 5: Run Scripts in Order
 ```bash
