@@ -1,0 +1,111 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Data Files (Large)
+data/
+*.txt  # Raw text files
+train.txt
+validation.txt
+shakespeare.txt
+
+# Model Files (Very Large - Usually 300MB+)
+models/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS-Specific
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs and Temporary Files
+logs/
+*.log
+*.logs
+tmp/
+temp/
+*.cache
+
+# IDE Settings
+.vscode/settings.json
+.vscode/launch.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Other
+.DS_Store
+*.pyc
+*.pyo
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+desktop.ini
+ehthumbs.db
+
+
+
+
