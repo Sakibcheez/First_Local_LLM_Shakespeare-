@@ -87,3 +87,14 @@ The slings and arrows of outrageous fortune..."
 - Training loops
 - Validation metrics
 - Model saving/loading
+
+## to see validation files
+-run this on terminal 
+
+python -c "
+with open('data/train.txt', 'r') as f: t = f.read()
+with open('data/validation.txt', 'r') as f: v = f.read()
+print(f'Train chars: {len(t):,}')
+print(f'Val chars: {len(v):,}')
+"
+This will show you exactly how small your validation file is.
